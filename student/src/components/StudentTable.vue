@@ -24,8 +24,8 @@
                         v-for="student in students" v-bind:key="student.name"
                         v-bind:student="student"
                         v-bind:edit="editTable"
-                        v-on:student-present="studentArrivedOrLeft">
-                        v-on:delete-student="studentDeleted"
+                        v-on:student-present="studentArrivedOrLeft"
+                        v-on:delete-student="studentDeleted">
                      </StudentRow>
                 </table>
             </div>
